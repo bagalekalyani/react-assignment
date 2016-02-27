@@ -1,0 +1,175 @@
+.header {
+    position: fixed;
+    z-index: 9000;
+    width: 100%;
+    background-color: black;
+    padding: 6px;
+    top: 0;
+    right: 0;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background-color: black;
+  bottom: 0;
+}
+
+.employee-list-table {
+  width: 550px;
+  border: 1px solid black;
+}
+
+.content{
+  margin-top: 80px;
+}
+
+.left-panel {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.right-panel {
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+
+.add-emp-button {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  padding: 6px 12px;
+  border: 1px solid transparent;
+  width: 100px;
+  margin: 0 10px 20px 448px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.clear-both {
+  clear: both;
+}
+
+.employee-list-table thead tr{
+  border-bottom: 1px solid #ddd;
+  background-color: #f2f2f2;
+}
+
+.employee-list-table th{
+  height: 50px;
+  width: 100px;
+}
+
+.employee-list-table td{
+  height: 50px;
+  textAlign: center;
+}
+
+.logo {
+  float: left;
+  padding: 2px;
+  width: 100px;
+  height: 40px;
+}
+
+.logo-img {
+  width: 100px;
+  height: 40px;
+  margin-left: 11px;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background-color: black;
+  bottom:0;
+}
+
+.footer-text {
+  color: white;
+  margin: 14px 0 0 11px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.selected-employee {
+  background-color: #D3D3D3;
+}
+
+.no-form-text {
+  color: #CCCCCC;
+  font-size: 30px;
+  padding: 80px;
+  width:400px;
+  float: left;
+}
+
+.cancel-button {
+  color: #fff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+  padding: 6px 12px;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  width: 100px;
+}
+
+.submit-button {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  padding: 6px 12px;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  width: 100px;
+}
+
+.delete-button {
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+  padding: 6px 12px;
+  border: 1px solid transparent;
+  width: 100px;
+}
+
+.field-label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.button-options {
+  margin-top: 30px;
+}
+
+.form-control {
+  display: block;
+  width: 50%;
+  height: 30px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
