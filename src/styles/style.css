@@ -173,3 +173,10 @@
   border-radius: 4px;
 }
 
+.emp-count{
+  float: right;
+  font-size: 18px;
+  color: #fff;
+  margin: 9px 10px 0 0;
+  font-weight: bold;
+}

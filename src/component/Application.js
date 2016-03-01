@@ -70,7 +70,7 @@ class Application extends React.Component {
 
     return (
       <div>
-        <Header/>
+        <Header employeeCount={employeeList}/>
         <Content  employeeList={employeeList}
                   addNewEmployee={this.addNewEmployee.bind(this)}
                   markEmployeeSelected={this.markEmployeeSelected.bind(this)}
