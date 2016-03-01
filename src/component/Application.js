@@ -38,20 +38,12 @@ class Application extends React.Component {
 
   updateEmployee(employee){
 
-    var employeeList = this.state.employees;
-
-    _.forEach(employeeList, function(value, key) {
-
-      if(value && (value.empId == employee.empId)){
-        employeeList[key] = employee;
-        return;
-      }
-
-    });
+    var index = _.findIndex(this.state.employees, function(emp) { return emp.empId == employee.empId; });
+    this.state.employees[index] = employee;
 
     this.setState(
       {
-        employees:employeeList,
+        employees:this.state.employees,
         selectedEmployee:null
       }
     );
@@ -59,16 +51,9 @@ class Application extends React.Component {
   }
 
   deleteEmployee(employee){
-    var employeeList = this.state.employees;
 
-    _.forEach(employeeList, function(value, key) {
-
-      if(value && (value.empId == employee.empId)){
-        employeeList.splice(key, 1);
-        return;
-      }
-
-    });
+    var index = _.findIndex(this.state.employees, function(emp) { return emp.empId == employee.empId; });
+    this.state.employees.splice(index, 1);
 
     this.setState(
       {
